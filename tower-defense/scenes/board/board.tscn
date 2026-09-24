@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://co2ait0a0cgt6"]
+
+[ext_resource type="PackedScene" uid="uid://ga6xda8x2blo" path="res://scenes/board/BuildCell.tscn" id="1_s78fa"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_cetax"]
+size = Vector3(12, 0.3, 8)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cetax"]
+albedo_color = Color(0.8590551, 0.9448201, 1.540184e-06, 1)
+
+[node name="Board" type="Node" unique_id=10308936]
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1155033157]
+mesh = SubResource("BoxMesh_cetax")
+surface_material_override/0 = SubResource("StandardMaterial3D_cetax")
+
+[node name="BuildCell" parent="." unique_id=878998075 instance=ExtResource("1_s78fa")]
