@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b2cueqo65qdqf"]
+
+[ext_resource type="PackedScene" uid="uid://byojdtlpbcobh" path="res://characters/enemies/Zombie.1.glb" id="1_o3umk"]
+
+[node name="Node3D" type="Node3D" unique_id=234517084]
+
+[node name="Zombie_1" parent="." unique_id=1830157562 instance=ExtResource("1_o3umk")]
