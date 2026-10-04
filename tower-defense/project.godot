@@ -11,13 +11,8 @@ config_version=5
 [application]
 
 config/name="Tower_Defense"
-run/main_scene="uid://be122exeopc3p"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-ResourceManager="*uid://chx62n147snx2"
 
 [physics]
 
