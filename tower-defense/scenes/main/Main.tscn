@@ -12,12 +12,13 @@ script = ExtResource("1_q24mn")
 campo_de_batalla = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=188035008]
-transform = Transform3D(0.9766196, 0.10327129, -0.18854523, 0.08913185, 0.6035997, 0.7922896, 0.19562662, -0.7905709, 0.5802825, -1, 7, 7)
+transform = Transform3D(-0.028427405, 0.8429273, -0.53727627, -0.034751337, 0.53633523, 0.84328943, 0.9989916, 0.04264359, 0.014046219, -7.868, 10.086, -4.163)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1652456119]
+transform = Transform3D(0.2957748, -0.012654015, -0.95517415, 0.9552578, 0.003918039, 0.2957489, -5.670564e-10, -0.9999124, 0.013246704, 0, 8.623838, -4.1726108)
 
 [node name="Incubadora" parent="." unique_id=1940757163 instance=ExtResource("3_q24mn")]
-transform = Transform3D(1, 0, 0, 0, 0.9988459, -0.04803043, 0, 0.04803043, 0.9988459, -3.8256369, 0, -8.080933)
+transform = Transform3D(1, 0, 0, 0, 0.9988459, -0.04803043, 0, 0.04803043, 0.9988459, 3.431508, 0, -9.662054)
 
 [node name="HUD" parent="." unique_id=670798985 instance=ExtResource("4_gyg6b")]
 
